@@ -19,7 +19,7 @@ class ButtomWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
         style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all<Color>(Color(0XFF2DD256)),
+          backgroundColor: MaterialStateProperty.all<Color>(Color(0xFF4C8233)),
           elevation: MaterialStateProperty.all(5),
         ),
         onPressed: callback,

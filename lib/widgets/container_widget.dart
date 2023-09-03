@@ -15,7 +15,7 @@ class ContainerWidget extends StatelessWidget {
         width: MediaQuery.sizeOf(context).width / 1.3,
         height: MediaQuery.sizeOf(context).height / 15,
         decoration: BoxDecoration(
-            color: Color(0XFF2DD256), borderRadius: BorderRadius.circular(10)),
+            color: Color(0xFF4C8233), borderRadius: BorderRadius.circular(10)),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

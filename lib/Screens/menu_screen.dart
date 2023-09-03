@@ -17,7 +17,7 @@ class _MenuScreenState extends State<MenuScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0XFF2DD256),
+        backgroundColor: const Color(0xFF4C8233),
         centerTitle: true,
         leading: IconButton(
             onPressed: () {
@@ -36,27 +36,23 @@ class _MenuScreenState extends State<MenuScreen> {
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           InkWell(
             onTap: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: ((context) => const SpeachScreen())));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: ((context) => QuestionScreen())));
             },
             child: ContainerWidget(
                 text: "Speach to the AI", icon: FontAwesomeIcons.microphone),
           ),
           InkWell(
               onTap: () {
-                  Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: ((context) => const QuestionScreen())));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: ((context) => QuestionScreen())));
               },
               child: ContainerWidget(
                   text: "Type a question", icon: FontAwesomeIcons.pen)),
           InkWell(
-            onTap: () {
-            
-            },
+            onTap: () {},
             child: ContainerWidget(
                 text: "Image recognition", icon: FontAwesomeIcons.image),
           ),

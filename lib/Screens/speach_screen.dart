@@ -18,7 +18,7 @@ class _SpeachScreenState extends State<SpeachScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color(0XFF2DD256),
+        backgroundColor: const Color(0xFF4C8233),
         centerTitle: true,
         leading: IconButton(
             onPressed: () {

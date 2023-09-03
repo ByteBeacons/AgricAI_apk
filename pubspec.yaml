@@ -39,6 +39,7 @@ dependencies:
   font_awesome_flutter: ^10.5.0
   avatar_glow: ^2.0.2
   speech_to_text: ^6.3.0
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:
